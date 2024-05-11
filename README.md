@@ -13,7 +13,7 @@
 ### Indice
 1. [Resolución de problemas](#Resolución-de-problemas)
 2. [Análisis del problema](#Análisis-del-problema)
-3. [Diseño del algoritmo](#Diseño-del-algoritmo)
+3. [Diseño del algoritmo](#Diseño-del-algoritmo) 
 
 
 La programación es un arte que combina la lógica, la creatividad y la precisión para resolver problema y crear soluciones innovadoras. Desde el desarrollo de aplicaciones móviles hasta la simulación de procesos científicos, la programación es una herramienta poderosa que impulsa el avance en una amplia variedad de campos.
@@ -63,7 +63,7 @@ Tenemos que saber que es el radio de un circunferencia, y saber que es su área 
 
 Los datos de entrada y la información de salida se van a guardar en **variables**, donde se puede guardar datos. Las variables son de distintos **tipos de datos**: entero, real, cadena, booleano,..
 
-### Diseño de Algoritmos
+### Diseño del Algoritmos
 A partir de los requerimientos, resultados del análisis, empieza la etapa de **diseño** donde tenemos que construir un **algoritmo** que resuelva el problema.
 
 ### Definición de Algoritmo
