@@ -92,11 +92,10 @@ FinProceso
 
 
 ## Prácticas
-**Práctica 01 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica01.psc)**
-
+### **Práctica 01 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica01.psc)**
 Algoritmo que pida dos números e indique si el primero es mayor que el segundo o no. 
 
-**Práctica 02 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica02.psc)**
+### **Práctica 02 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica02.psc)**
 
 Algoritmo que pida un número y diga si es positivo, negativo o 0.
 
