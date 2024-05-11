@@ -92,40 +92,40 @@ FinProceso
 
 
 ## Prácticas
-### **PRÁCTICA 01 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica01.psc)**
+### **Práctica 01 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica01.psc)**
 Algoritmo que pida dos números e indique si el primero es mayor que el segundo o no. 
 
-### **PRÁCTICA 02 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica02.psc)**
+### **Práctica 02 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica02.psc)**
 
 Algoritmo que pida un número y diga si es positivo, negativo o 0.
 
-**PRÁCTICA 03 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica03.psc)**
+## **PRÁCTICA 03 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica03.psc)**
 
 Escribe un programa que lea un número e indique si es par o impar.
 
-**PRÁCTICA 04 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica04.psc)**
+## **PRÁCTICA 04 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica04.psc)**
 
 Crea un programa que pida al usuario dos números y muestre su división si el segundo no es cero, o un mensaje de aviso en caso contrario.
 
-**Práctica 05 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica05.psc)**
+## **Práctica 05 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica05.psc)**
 Escribe un programa que pida un nombre de usuario y una contraseña y si se ha introducido “pepe” y “asdasd” se indica “Has entrado al sistema”, sino se da un error. 
 
-**Práctica 06 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica06.psc)**
+## **Práctica 06 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica06.psc)**
 Programa que lea una cadena por teclado y compruebe si es una letra mayúscula.
 
-**Práctica 07 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica07.psc)**
+## **Práctica 07 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica07.psc)**
 Realiza un algoritmo que calcule la potencia, para ello pide por teclado la base y el exponente. Pueden ocurrir tres cosas:
 -   El exponente sea positivo, sólo tienes que imprimir la potencia.
 -   El exponente sea 0, el resultado es 1.
 -   El exponente sea negativo, el resultado es 1/potencia con el exponente positivo. 
 
-**Práctica 08 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica08.psc)**
+## **Práctica 08 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica08.psc)**
 Algoritmo que pida dos números ‘nota’ y ‘edad’ y un carácter ‘sexo’ y muestre el mensaje ‘ACEPTADA’ si la nota es mayor o igual a cinco, la edad es mayor o igual a dieciocho y el sexo es ‘F’. En caso de que se cumpla lo mismo, pero el sexo sea ‘M’, debe imprimir ‘POSIBLE’. Si no se cumplen dichas condiciones se debe mostrar ‘NO ACEPTADA’.
 
-**Práctica 09 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica09.psc)**
+## **Práctica 09 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica09.psc)**
 Algoritmo que pida tres números y los muestre ordenados (de mayor a menor)
 
-**Práctica 10 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica10.psc)**
+## **Práctica 10 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica10.psc)**
 Algoritmo que pida los puntos centrales x1,y1,x2,y2 y los radios r1,r2 de dos circunferencias y las clasifique en uno de estos estados:
 -   exteriores
 -   tangentes exteriores
@@ -134,9 +134,4 @@ Algoritmo que pida los puntos centrales x1,y1,x2,y2 y los radios r1,r2 de dos ci
 -   interiores
 -   concéntricas
 
-
-18. Realiza un programa que pida el día de la semana (del 1 al 7) y escriba el día correspondiente. Si introducimos otro número nos da un error.
-**[Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica18.psc)**
-20. Escribe un programa que pida un número entero entre uno y doce e imprima el número de días que tiene el mes correspondiente.
-    **[Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica19.psc)**
 
