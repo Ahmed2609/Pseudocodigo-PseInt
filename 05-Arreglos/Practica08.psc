@@ -16,8 +16,6 @@ Proceso Practica08
 	indice<-0;
 	tam_vector<-30;
 	
-	//Inicializo los vectores hasta que introduzca un "*" o llegue a final del vector
-	//El * me sirve para indicar el final del vector
 	Repetir
 		Escribir Sin Saltar "Dime el nombre de un alumno:";
 		Leer nombre[indice];
@@ -30,8 +28,6 @@ Proceso Practica08
 	
 	indice<-0;
 	
-	//Calcular la edad máxima
-	//El recorrido es hasta que no encuentre un * y no hayamos llegado al final del vector
 	edad_max<-edad[0];
 	Mientras indice<tam_vector Y nombre[indice]<>"*"  Hacer
 		Si edad[indice]>edad_max Entonces
@@ -40,7 +36,6 @@ Proceso Practica08
 		indice<-indice+1;
 	FinMientras
 	
-	// Alumnos mayores de edad
 	indice<-0;
 	Escribir "Alumnos mayores de edad";
 	Escribir "=======================";
@@ -51,7 +46,6 @@ Proceso Practica08
 		indice<-indice+1;
 	FinMientras
 	
-	// Alumnos mayores 
 	indice<-0;
 	Escribir "Alumnos mayores";
 	Escribir "===============";

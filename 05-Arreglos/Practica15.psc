@@ -10,26 +10,15 @@
 //El programa ira pidiendo los nombres de los equipos de cada partido y el 
 //resultado del partido, a continuación se imprimirá la quiniela de esa jornada.
 //################################################################################
-//Análisis
-//Recorro las tablas para incializar el nombre de los dos quipos y el resultado del partido
-//Recorro las tablas, muestro el nombre de los equipos
-// Un 1 si el que juega en casa ha ganado (primer equipo gana)
-// Un 2 si el que juega de visitante ha ganado (segundo equipo gana)
-// Una X si hay empate
-// Datos de entrada: Nombre de los dos quipos y el resultado del partido (para cada partido)
-// Información de salida: Los nombres de los equipos y el resultado de la quiniela
-// Variables: equipos (tabla de 15 x 2 cadenas), resultados (tabla de 15 x 2 enteros)
-//			  indice,num_equpos (entero)
-//################################################################################
-	
 Proceso Quiniela
 	Definir indice,num_equipos Como Entero;
 	Definir equipos Como Caracter;
 	Dimension equipos[15,2];
 	Definir resultados Como Entero;
 	Dimension resultados[15,2];
+	
 	num_equipos<-15;
-	//Recorro las tablas para incializar el nombre de los dos quipos y el resultado del partido
+	
 	Para indice<-0 hasta num_equipos-1 Hacer
 		Escribir Sin Saltar "Introduce el nombre del equipo 1 del partido ", indice+1,":";
 		Leer equipos[indice,0];
@@ -40,13 +29,10 @@ Proceso Quiniela
 		Escribir Sin Saltar "Introduce los goles metidos por el equipo ",equipos[indice,1],": ";
 		Leer resultados[indice,1];
 	FinPara
+	
 	Escribir "QUINIELA";
 	Escribir "========";
 	
-	//Recorro las tablas, muestro el nombre de los equipos
-	// Un 1 si el que juega en casa ha ganado (primer equipo gana)
-	// Un 2 si el que juega de visitante ha ganado (segundo equipo gana)
-	// Una X si hay empate
 	Para indice<-0 hasta num_equipos-1 Hacer
 		Si resultados[indice,0]>resultados[indice,1] Entonces
 			Escribir equipos[indice,0], " - ",equipos[indice,0]," -> 1";

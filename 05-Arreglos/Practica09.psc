@@ -15,7 +15,6 @@ Proceso Practica09
 	
 	cant_dias<-5;
 	
-	//Recorrido para rellenar la tabla (5 días con temp mínima y máxima)
 	Para indice<-0 Hasta cant_dias-1 Hacer
 		Escribir Sin Saltar "Día ",(indice+1),". Temperatura mínima:";
 		Leer temperatura[indice,0];
@@ -23,14 +22,12 @@ Proceso Practica09
 		Leer temperatura[indice,1];
 	FinPara
 	
-	//Mostrar temperatura media
 	Escribir "Temperaturas medias";
 	Escribir "===================";
 	Para indice<-0 Hasta cant_dias-1 Hacer
 		Escribir "Día ",(indice+1),". Temperatura media:",(temperatura[indice,0]+temperatura[indice,1])/2;
 	FinPara
 	
-	//Calcular temperatura mínima más pequeña
 	temp_min<-temperatura[0,0];
 	Para indice<-0 Hasta cant_dias-1 Hacer
 		Si temperatura[indice,0]<temp_min Entonces
@@ -38,7 +35,6 @@ Proceso Practica09
 		FinSi
 	FinPara
 	
-	//Mostrar los días con menos temperatura
 	Escribir "Días con menos temperatura";
 	Escribir "==========================";
 	Para indice<-0 Hasta cant_dias-1 Hacer
@@ -47,7 +43,6 @@ Proceso Practica09
 		FinSi
 	FinPara
 	
-	//Días con temperatura máxima
 	existe_temperatura<-Falso;
 	Escribir "Días con temperatura máxima";
 	Escribir "===========================";
