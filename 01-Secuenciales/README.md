@@ -1,15 +1,16 @@
 # Nuestro primer pseudocódigo completo
 
-Vamos a resolver un problema completo, siguiendo todas las etapas que hemos estudiado del cilo de desarrollo. El enunciado del problema es el siguiente:
+Vamos a resolver un problema completo, siguiendo todas las etapas que hemos en la [introduccion](https://github.com/Ahmed2609/Pseudocodigo-PseInt?tab=readme-ov-file#Introducci%C3%B3n-a-la-programaci%C3%B3n). 
+El enunciado del problema es el siguiente:
 
 **Queremos saber que porcentaje de hombres y que porcentaje de mujeres hay en un grupo de estudiantes.**
 
 ## Análisis
 
-* Definición del problema: Tenemos que saber cuantos hombres y mujeres hay en la clase, y calcular el porcentaje de cada uno.
+* **Definición del problema:** Tenemos que saber cuantos hombres y mujeres hay en la clase, y calcular el porcentaje de cada uno.
 * Datos de Entradas: Número de hombre y número de mujeres. Valores enteros.
-* Información de salida: Porcentaje de hombres y porcentaje de mujeres. Valores reales.
-* Variables: `num_hombres`, `num_mujeres` de tipo entero; `porcentaje_hombres`, `porcentaje_mujeres` de tipo real.
+* **Información de salida:** Porcentaje de hombres y porcentaje de mujeres. Valores reales.
+* **Variables:** `num_hombres`, `num_mujeres` de tipo entero; `porcentaje_hombres`, `porcentaje_mujeres` de tipo real.
 
 ## Diseño
 
@@ -31,7 +32,7 @@ Como vemos durante el diseño pueden aparecer nuevas posibles variables
 (variables intermedias), en este caso `num_personas` del tipo entero. Posteriormente cuando construimos el pseudocódigo tendremos que decidir si utilizamos todas las variables.
 
 ## Pseudocódigo
-
+```papyrus
 	Proceso CalcularPorcentajes
 		Definir num_hombres, num_mujeres, num_personas Como Entero;
 		Definir porc_hombres, porc_mujeres Como Real;
@@ -44,7 +45,12 @@ Como vemos durante el diseño pueden aparecer nuevas posibles variables
 		porc_mujeres<- (num_mujeres*100) / num_personas;
 		Escribir "Hombres: ",porc_hombres," %, Mujeres:",porc_mujeres," %.";
 	FinProceso
+```
+
 
 ## Diagrama de flujo
 
-![diagrama](img/diagrama.png)
+![diagrama](https://github.com/josedom24/curso_programacion/blob/master/curso/u14/img/diagrama.png?raw=true)
+
+## Resultado
+![diagrama](https://github.com/Ahmed2609/Imagenes/blob/main/EjemploCompleto.png?raw=true)
