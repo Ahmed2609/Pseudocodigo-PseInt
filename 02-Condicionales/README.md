@@ -4,6 +4,7 @@
 1. [Selección Simple (SI)](#Selección-Simple)
 2. [Selección Compuesta (Doble SI)](#Selección-Compuesta)
 3. [Condicional SEGUN](#Condicional-SEGUN)
+4. [Prácticas](#Prácticas)
 
 
 ## Selección Simple
