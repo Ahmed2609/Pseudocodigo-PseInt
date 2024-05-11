@@ -99,11 +99,11 @@ Algoritmo que pida dos números e indique si el primero es mayor que el segundo 
 
 Algoritmo que pida un número y diga si es positivo, negativo o 0.
 
-### **PRÁCTICA 03 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica03.psc)**
+### **Práctica 03 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica03.psc)**
 
 Escribe un programa que lea un número e indique si es par o impar.
 
-### **PRÁCTICA 04 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica04.psc)**
+### **Práctica 04 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica04.psc)**
 
 Crea un programa que pida al usuario dos números y muestre su división si el segundo no es cero, o un mensaje de aviso en caso contrario.
 
