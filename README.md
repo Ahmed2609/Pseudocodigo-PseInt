@@ -2,7 +2,7 @@
 
 ## Contenido
 0. [Introducción a la programación](#Introducción-a-la-programación)
-1. Estructura Secuencial
+1. [Estructura Secuencial](https://github.com/Ahmed2609/Pseudocodigo-PseInt/tree/main/01-Secuenciales)
 2. Condicionales
 3. Bucles
 4. Arreglos
