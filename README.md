@@ -1,7 +1,7 @@
 ﻿# Programación con pseudocódigo - PseInt
 
 ## Contenido
-0. [Introducción a la programación](Introducción-a-la-programación)
+0. [Introducción a la programación](#Introducción-a-la-programación)
 1. Estructura Secuencial
 2. Condicionales
 3. Bucles
