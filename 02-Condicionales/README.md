@@ -93,15 +93,19 @@ FinProceso
 
 ## Prácticas
 **Práctica 01 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica01.psc)**
+
 Algoritmo que pida dos números e indique si el primero es mayor que el segundo o no. 
 
 **Práctica 02 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica02.psc)**
+
 Algoritmo que pida un número y diga si es positivo, negativo o 0.
 
 **Práctica 03 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica03.psc)**
+
 Escribe un programa que lea un número e indique si es par o impar.
 
 **Práctica 04 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica04.psc)**
+
 Crea un programa que pida al usuario dos números y muestre su división si el segundo no es cero, o un mensaje de aviso en caso contrario.
 
 **Práctica 05 [Solución](https://github.com/Ahmed2609/Pseudocodigo-PseInt/blob/main/02-Condicionales/Practicas/Practica05.psc)**
