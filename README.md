@@ -11,9 +11,9 @@
 ## Introducción a la Programación
 *Un Viaje desde la Resolución de problemas hasta el diseño de algoritmos*
 ### Indice
-1. Resolución de problemas
-2. Análisis del problema
-3. Diseño del algoritmo
+1. [Resolución de problemas](#Resolución-de-problemas)
+2. [Análisis del problema](#Análisis-del-problema)
+3. [Diseño del algoritmo](#Diseño-del-algoritmo)
 
 
 La programación es un arte que combina la lógica, la creatividad y la precisión para resolver problema y crear soluciones innovadoras. Desde el desarrollo de aplicaciones móviles hasta la simulación de procesos científicos, la programación es una herramienta poderosa que impulsa el avance en una amplia variedad de campos.
