@@ -3,10 +3,10 @@
 ## Contenido
 0. [Introducción a la programación](#Introducción-a-la-programación)
 1. [Estructura Secuencial](https://github.com/Ahmed2609/Pseudocodigo-PseInt/tree/main/01-Secuenciales)
-2. Condicionales
-3. Bucles
-4. Arreglos
-5. Programación Modular / Funciones
+2. [Condicionales](https://github.com/Ahmed2609/Pseudocodigo-PseInt/tree/main/02-Condicionales)
+3. [Bucles](https://github.com/Ahmed2609/Pseudocodigo-PseInt/tree/main/03-Bucles)
+4. [Arreglos](https://github.com/Ahmed2609/Pseudocodigo-PseInt/tree/main/05-Arreglos)
+5. [Programación Modular / Funciones](https://github.com/Ahmed2609/Pseudocodigo-PseInt/tree/main/06-Funciones)
 
 ## Introducción a la Programación
 *Un Viaje desde la Resolución de problemas hasta el diseño de algoritmos*
