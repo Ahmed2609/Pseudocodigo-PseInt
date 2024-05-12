@@ -5,17 +5,13 @@
 // 		  * El exponente sea negativo, el resultado es 1/potencia con el exponente positivo.
 //################################################################################
 Proceso Practica07
-	
-	// Definimos las variables que utilizara nuestro programa
 	Definir base,exponente Como Entero;
 	
-	// Pedimos los datos al usuario
 	Escribir 'Dime la base:';
 	Leer base;
 	Escribir 'Dime el exponente:';
 	Leer exponente;
 	
-	// Realizamos las comprobaciones necesarias e imprimimos por pantalla
 	Si exponente>0 Entonces
 		Escribir 'La potencia es ',base^exponente;
 	SiNo

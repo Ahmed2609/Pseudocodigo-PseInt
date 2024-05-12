@@ -8,12 +8,10 @@ Proceso Practica01
 	Dimension vector_numeros[10];
 	Definir indice Como Entero;
 	
-	//Primer recorrido para leer el vector
 	Para indice<-0 hasta 9 hacer
 		vector_numeros[indice]<-aleatorio(1,10);
 	FinPara
 	
-	//Segundo recorrido para mostrar el resultado
 	Para indice<-0 hasta 9 hacer
 		Escribir vector_numeros[indice]," ",vector_numeros[indice]^2," ",vector_numeros[indice]^3;
 	FinPara

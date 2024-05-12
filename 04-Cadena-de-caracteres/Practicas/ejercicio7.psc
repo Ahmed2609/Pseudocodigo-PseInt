@@ -2,21 +2,12 @@
 //Pide una cadena y dos caracteres por teclado (valida que sea un carácter), 
 //sustituye la aparición del primer carácter en la cadena por el segundo carácter.
 //################################################################################
-//Análisis
-//Leo un cadena y dos caracteres, recorro la cadena, si encuentro un carácter 
-//igual al primer carácter que he leído lo sustituyo por el segundo. Para ello voy 
-//a ir copiando los caracteres de la cadena a otra cadena, cuando tenga que 
-//sustituir un carácter por otro copiaré el segundo.
-//################################################################################
-
 Proceso Practica07
-	// Definimos las variables que utilizara nuestro programa
 	Definir cad,newcad, car_buscar,car_sustituir Como Caracter;
 	Definir posicion Como Entero;
 	
 	newcad<-"";
 	
-	// Pedimos los datos al usuario
 	Escribir Sin Saltar "Introduce una cadena:";
 	Leer cad;
 	

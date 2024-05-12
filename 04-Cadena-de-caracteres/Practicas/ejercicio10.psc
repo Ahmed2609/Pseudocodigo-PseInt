@@ -2,13 +2,11 @@
 //	palíndroma es aquella que se lee igual adelante que atrás.
 //################################################################################
 Proceso Palindromo
-	// Definimos las variables que utilizara nuestro programa
 	Definir cad1,cad2 Como Caracter;
 	Definir posicion Como Entero;
 	
 	cad2 <- "";
 	
-	// Pedimos los datos al usuario
 	Escribir "Introduce una cadena:";
 	Leer cad1;
 	
@@ -16,7 +14,6 @@ Proceso Palindromo
 		cad2 <- Concatenar(cad2,Subcadena(cad1,posicion,posicion));
 	FinPara
 	
-	// Mostramos el resultado segun la condicion
 	Si cad1=cad2 Entonces
 		Escribir "Es un palíndromo";
 	SiNo

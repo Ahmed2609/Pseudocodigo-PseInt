@@ -4,11 +4,9 @@
 //  y la zona a la que va dirigido...
 //################################################################################
 Proceso Practica20
-	// Definimos las variables que utilizara nuestro programa
 	Definir peso Como Entero;
 	Definir zona Como Entero;
 	
-	// Pedimos los datos al usuario sobre  las notas
 	Escribir Sin Saltar "¿Qué peso tiene el paquete (en gramos)?: ";
 	Leer peso;
 	

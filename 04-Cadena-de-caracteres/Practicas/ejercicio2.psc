@@ -2,10 +2,8 @@
 //  una subcadena introducida por teclado.
 //################################################################################
 Proceso Practica02
-	// Definimos las variables que utilizara nuestro programa
 	Definir cad, subcad Como Caracter;
 	
-	// Pedimos los datos al usuario
 	Escribir Sin Saltar "Introduce una cadena:";
 	Leer cad;
 	Escribir Sin Saltar "Introduce una subcadena:";

@@ -2,7 +2,6 @@
 //	minúsculas y viceversa.
 //################################################################################
 Proceso Practica08
-	// Definimos las variables que utilizara nuestro programa
 	Definir cad,newcad Como Caracter;
 	Definir posicion Como Entero;
 	
@@ -20,6 +19,5 @@ Proceso Practica08
 		FinSi
 	FinPara
 	
-	// Imprimimos los datos por pantalla
 	Escribir "La cadena convertida es: ",newcad;
 FinProceso

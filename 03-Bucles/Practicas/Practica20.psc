@@ -10,15 +10,15 @@ Proceso Practica20
 		Leer cant_a_mostrar;
 	Hasta que cant_a_mostrar>0;
     
-    Escribir "1: 2"; // el primer primo es 2, los otros son todos impares...
+    Escribir "1: 2"; 
     cant_mostrados <- 1;
-    num<-3;            // ...a partir de 3
+    num<-3;            
     
     Mientras cant_mostrados<cant_a_mostrar Hacer
-        es_primo <- Verdadero; // pienso que es primo hasta que encuentre con que dividirlo
-        Para divisor<-3 hasta rc(num) con paso 2 Hacer // ya sabemos que es impar
-            Si num % divisor = 0 entonces // si la división da exacta...
-                es_primo <- Falso;  // ...ya no es primo
+        es_primo <- Verdadero; 
+        Para divisor<-3 hasta rc(num) con paso 2 Hacer
+            Si num % divisor = 0 entonces
+                es_primo <- Falso;  
             FinSi
         FinPara
 		

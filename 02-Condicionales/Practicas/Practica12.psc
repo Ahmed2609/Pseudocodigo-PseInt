@@ -3,10 +3,8 @@
 //	divisible por 100, excepto que también sea divisible por 400.
 //################################################################################
 Proceso Practica12
-	// Definimos las variables que utilizara nuestro programa
 	Definir year Como Entero;
 	
-	// Pedimos los datos al usuario sobre  las notas
 	Escribir Sin Saltar "Introduce el año:";
 	Leer year;
 	

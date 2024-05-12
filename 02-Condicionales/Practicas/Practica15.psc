@@ -10,12 +10,10 @@
 //	y lo que debe pagar cada alumno por el viaje.
 //################################################################################
 Proceso Practica15
-	// Definimos las variables que utilizara nuestro programa
 	Definir num_alumnos Como Entero;
 	Definir coste_por_alumno como Real;
 	Definir coste_autobus como Entero;
 	
-	// Pedimos los datos al usuario sobre  las notas
 	Escribir Sin Saltar "¿Cuántos alumnos participan en la actividad?: ";
 	Leer num_alumnos;
 	

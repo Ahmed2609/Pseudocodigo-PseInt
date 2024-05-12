@@ -3,10 +3,8 @@
 // 	Si introducimos otro número nos da un error.
 //################################################################################
 Proceso Practica19
-	// Definimos las variables que utilizara nuestro programa
 	Definir mes Como Entero;
 	
-	// Pedimos los datos al usuario sobre  las notas
 	Escribir Sin Saltar "Introduce el número de mes (1-12):";
 	Leer mes;
 	

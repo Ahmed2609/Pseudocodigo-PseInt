@@ -5,11 +5,9 @@
 //	Si no se cumplen dichas condiciones se debe mostrar 'NO ACEPTADA'.
 //################################################################################
 Proceso Practica08
-	// Definimos las variables que utilizara nuestro programa
 	Definir nota,edad como Entero;
 	Definir sexo como Cadena;
 	
-	// Pedimos los datos necesarios al usuario
 	Escribir Sin Saltar "Introduce la nota:";
 	Leer nota;
 	Escribir Sin Saltar "Introduce la edad:";
@@ -17,7 +15,6 @@ Proceso Practica08
 	Escribir Sin Saltar "Introduce el sexo (F/M):";
 	Leer sexo;
 	
-	// Realizamos las comprobaciones necesarias
 	Si nota>=5 Y edad>=18 Entonces
 		Si Mayusculas(sexo)="F" Entonces
 			Escribir "Aceptada";

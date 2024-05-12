@@ -7,15 +7,14 @@
 //	número que había generado.
 //################################################################################
 Proceso Practica02
-	// Definimos las variables necesarias para el programa
 	Definir intentos,num_secreto,num_ingresado Como Entero;
     intentos<-10;
     num_secreto <- Aleatorio(1,100);
     
-	// Pedimos los datos al usuario
-    Escribir "Adivine el numero (de 1 a 100):";
+	Escribir "Adivine el numero (de 1 a 100):";
     Leer num_ingresado;
-    Mientras num_secreto<>num_ingresado Y intentos>1 Hacer
+    
+	Mientras num_secreto<>num_ingresado Y intentos>1 Hacer
         Si num_secreto>num_ingresado Entonces
             Escribir "Muy bajo";
         Sino 

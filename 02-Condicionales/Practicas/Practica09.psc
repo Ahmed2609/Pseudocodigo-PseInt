@@ -1,10 +1,8 @@
 //	Algoritmo que pida tres números y los muestre ordenados (de mayor a menor);
 //################################################################################
 Proceso Practica09
-	// Definimos las variables que utilizara nuestro programa
 	Definir num1,num2,num3 Como Entero;
 	
-	// Pedimos los datos al usuario
 	Escribir "Dime el número 1:";
 	Leer num1;
 	Escribir "Dime el número 2:";
@@ -12,7 +10,6 @@ Proceso Practica09
 	Escribir "Dime el número 3:";
 	Leer num3;
 	
-	// Realizamos las comprobaciones y mostramos el orden indicado
 	Si num1>num2 Y num1>num3 Entonces
 		Si num2>num3 Entonces
 			Escribir num1," ",num2," ",num3;
@@ -20,6 +17,7 @@ Proceso Practica09
 			Escribir num1," ",num3," ",num2;
 		FinSi
 	FinSi
+	
 	Si num2>num1 Y num2>num3 Entonces
 		Si num1>num3 Entonces
 			Escribir num2," ",num1," ",num3;
@@ -27,6 +25,7 @@ Proceso Practica09
 			Escribir num2," ",num3," ",num1;
 		FinSi
 	FinSi
+	
 	Si num3>=num1 Y num3>=num2 Entonces
 		Si num1>num2 Entonces
 			Escribir num3," ",num1," ",num2;

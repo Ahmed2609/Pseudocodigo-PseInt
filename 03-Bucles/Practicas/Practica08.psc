@@ -7,17 +7,16 @@
 //			* He informa si hemos introducido algún número igual a los límites del intervalo.
 //################################################################################
 Proceso Practica08
-	// Definimos las variables que utilizara nuestro programa
 	Definir lim_inf, lim_sup como Entero;
 	Definir num como Entero;
 	Definir suma_dentro_intervalo Como Entero;
 	Definir cont_fuera_intervalo Como Entero;
 	Definir igual_limites Como Logico;
+	
 	suma_dentro_intervalo <- 0;
 	cont_fuera_intervalo <- 0;
 	igual_limites <- Falso;
 	
-	//Me aseguro que el lim_inf es menor que el lim_sup
 	Repetir
 		Escribir "Introduce el límite inferior del intervalo:";
 		Leer lim_inf;
@@ -32,14 +31,11 @@ Proceso Practica08
 	Leer num;
 	
 	Mientras num<>0 Hacer
-		//Pertenece al intervalo
 		Si num>lim_inf Y num<lim_sup Entonces
 			suma_dentro_intervalo <- suma_dentro_intervalo + num;
 		SiNo
-			//No pertenece al intervalo
 			cont_fuera_intervalo <- cont_fuera_intervalo + 1;
 		FinSi
-		//Número igual a alguno de los límites
 		Si num=lim_inf O num=lim_sup Entonces
 			igual_limites <- Verdadero;
 		FinSi

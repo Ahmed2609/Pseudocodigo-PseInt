@@ -3,10 +3,8 @@
 //  Si introducimos otro número nos da un error.
 //################################################################################
 Proceso Practica18
-	// Definimos las variables que utilizara nuestro programa
 	Definir dia Como Entero;
 	
-	// Pedimos los datos al usuario sobre  las notas
 	Escribir Sin Saltar "Dime un día de la semana (1-7): ";
 	Leer dia;
 	

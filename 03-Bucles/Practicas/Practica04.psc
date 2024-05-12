@@ -3,17 +3,14 @@
 //	son mayores que 0, menores que 0 e iguales a 0.
 //################################################################################
 Proceso Practica04
-	// Definimos las variables que utilizara nuestro programa
 	Definir num Como Entero;
 	Definir cantidad_num,i Como Entero;
 	Definir cont_negativos,cont_positivos,cont_ceros Como Entero;
 	
-	// Inicializamos las variables 
 	cont_negativos <- 0;
 	cont_positivos <- 0;
 	cont_ceros <- 0;
 	
-	// Pedimos los datos al usuario
 	Escribir "¿Cuántos números vas a introducir?:";
 	Leer cantidad_num;
 	
@@ -31,7 +28,6 @@ Proceso Practica04
 		FinSi
 	FinPara
 	
-	// Imprimimos los datos en pantalla
 	Escribir "Números positivos:",cont_positivos;
 	Escribir "Números negativos:",cont_negativos;
 	Escribir "Números igual a 0:",cont_ceros;	

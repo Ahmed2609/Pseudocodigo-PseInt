@@ -1,11 +1,9 @@
 //	Escribe un programa que pida una fecha (día, mes y año) y diga si es correcta.
 //################################################################################
 Proceso Practica13
-	// Definimos las variables que utilizara nuestro programa
 	Definir dia,mes,year Como Entero;
 	Definir dias_del_mes Como Entero;
 	
-	// Pedimos los datos al usuario sobre  las notas
 	Escribir Sin Saltar "Introduce el dia: ";
 	Leer dia;
 	Escribir Sin Saltar "Introduce el mes: ";

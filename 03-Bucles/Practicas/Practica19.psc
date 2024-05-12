@@ -5,7 +5,6 @@ Proceso Practica19
     Definir opcion Como Entero;
 	
     Repetir
-        // mostrar menu
         Limpiar Pantalla;
         Escribir "Menú de recomendaciones";
         Escribir "   1. Literatura";
@@ -14,11 +13,9 @@ Proceso Practica19
         Escribir "   4. Videojuegos";
         Escribir "   5. Salir";
 		
-        // ingresar una opcion
         Escribir "Elija una opción (1-5): ";
         Leer opcion;
 		
-        // procesar esa opción
         Segun opcion Hacer
             1:
                 Escribir "Lecturas recomendables:";

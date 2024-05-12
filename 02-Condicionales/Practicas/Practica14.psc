@@ -10,13 +10,11 @@
 //  Realice un algoritmo para determinar la ganancia obtenida.
 //################################################################################
 Proceso Practica14
-	// Definimos las variables que utilizara nuestro programa
 	Definir tipo Como Caracter;
 	Definir tamano Como Caracter;
 	Definir precio_inicial,precio_final Como Real;
 	Definir kilos Como Entero;
 	
-	// Pedimos los datos al usuario sobre  las notas
 	Escribir Sin Saltar "Introduce el precio inicial por kilos de la UVA (centimos): ";
 	Leer precio_inicial;
 	Escribir Sin Saltar "Introduce cuantos kilos has vendido: ";
